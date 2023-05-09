@@ -1,3 +1,4 @@
+
 # Funkcionális specifikáció
 
 ## 1. Vágyálomrendszer leírása
@@ -8,22 +9,33 @@ Egy olyan félanalóg órát tervezünk készíteni, amelyben charlieplexing meg
 
 ### Minden alkatrész be lett szerezve
 
-* 1db Arduino Micro
-* 13db egyszínű LED
+* 1db Arduino UNO
+* 12db egyszínű LED
 * 2db 7-szegmenses kijelző
 * 2db gomb
 * 2db potméter
 * 1db hangszóró
-* ellenállások ledekhez
+* ellenállások
 * jumper kábelek
+* 2db 27HC595 8bit register
 
 ## 3. Használati esetek (működés)
 
-* Idő állító gomb lenyomásánál
-  * óra állítás potméterrel
-  * perc állítás potméterrel
-* Ébresztő állító gomb lenyomásánál
-  * óra állítás potméterrel
-  * perc állítás potméterrel
-  * az ébresztő állító gomb felengedésénél visszaáll a pontos idő
-  * amikor a jelenlegi idő megegyezik a beállított idővel, megszólal az ébresztő (hangszóró)
+* Mód állító gomb lenyomásánál
+  * 3 mód között vált: 
+	  * Óra: potméreteket nem lehet használni
+	  * Idő állítás: potméterekkel időt állítunk
+	  * Ébresztő állítás: potméterekkel ébresztőt állítunk, óra módra visszalépésnél visszaáll a rendes idő
+* Ébresztő gomb lenyomásánál
+  * ha szól az ébresztő, kikapcsolja
+  * 5mp-ig nyomvatartásnál törli a beállított ébresztőt
+
+## 4. Képernyőtervek (sematikus rajz és CAD tervrajz)
+
+### 4.1: Sematikus rajz:
+
+![SematikusRajz](https://github.com/mviktor02/robotika/blob/main/img/SematikusRajz.png)
+
+### 4.2: CAD tervrajz:
+
+![CADRajz](https://github.com/mviktor02/robotika/blob/main/img/CADTervrajz.png)
