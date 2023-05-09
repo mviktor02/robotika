@@ -39,3 +39,23 @@ Egy olyan félanalóg órát tervezünk készíteni, amelyben charlieplexing meg
 ### 4.2: CAD tervrajz:
 
 ![CADRajz](https://github.com/mviktor02/robotika/blob/main/img/CADTervrajz.png)
+
+## 5. Forgatókönyvek (állapotátmenet gráf)
+
+### 5.1: jelölések
+
+#### 5.1.1 Állapotok jelölése:
+ 
+ * A: jár az óra ébresztő nélkül
+ * É: ébresztő
+ * B: Ébresztő bekapcsolása
+ * Sz: Ébresztő szól
+ * I: Idő beállítása
+
+#### 5.1.2 Gomblenyomások jelölése:
+ 
+ * m: módváltó gomb
+ * é: ébresztő állító gomb
+ 
+ ### 5.2 Állapotátmenet gráf:
+![AllapotatmenetGraf](https://github.com/mviktor02/robotika/blob/main/img/allapotatmenetGraf.png)
