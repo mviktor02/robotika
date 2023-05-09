@@ -58,4 +58,4 @@ Egy olyan félanalóg órát tervezünk készíteni, amelyben charlieplexing meg
  * é: ébresztő állító gomb
  
  ### 5.2 Állapotátmenet gráf:
-![AllapotatmenetGraf](https://github.com/mviktor02/robotika/blob/main/img/allapotatmenetGraf.png)
+![AllapotatmenetGraf](https://github.com/mviktor02/robotika/blob/main/img/allapotatmenetGraf.jpg)
