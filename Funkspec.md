@@ -34,7 +34,7 @@ Egy olyan félanalóg órát tervezünk készíteni, amelyben charlieplexing meg
 
 ### 4.1: Sematikus rajz:
 
-![SematikusRajz](https://github.com/mviktor02/robotika/blob/main/img/SematikusRajz.jpg)
+![SematikusRajz](https://github.com/mviktor02/robotika/blob/main/img/SematikusRajz.JPG)
 
 ### 4.2: CAD tervrajz:
 
